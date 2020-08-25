@@ -35,7 +35,7 @@ int Fibonacci(int num) {
     if (num <= 2) {
         return 1;
     }
-
+    // NOTE: memory efficiency is too bad
     sum += Fibonacci(num - 2) + Fibonacci(num - 1);
     return sum;
 
