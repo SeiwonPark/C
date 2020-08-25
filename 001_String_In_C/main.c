@@ -13,8 +13,6 @@
 
 int main()
 {
-
-
     /* dealing with String in C */
     char str[] = "\"The truth is ...\nI am Ironman\"\n";
     printf("%s", str);
